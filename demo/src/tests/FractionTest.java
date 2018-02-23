@@ -21,7 +21,7 @@ public class FractionTest
 	@Test(groups = {"tests.math"})
 	public void testSum()
 	{
-		assert fraction.add(Fraction.ONE_HALF).equals(Fraction.ONE_HALF);
+		assert fraction.add(Fraction.ONE_FIFTH).equals(Fraction.ONE_HALF);
 	}
 
 	@Test(groups = {"tests.math"})
